@@ -1,0 +1,185 @@
+
+body{
+	overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+	
+}/**/
+
+ul {padding: 0;}
+
+li{
+	list-style: none;
+}
+
+a:hover{
+	text-decoration: none!important;
+}
+
+
+.nav-link {
+    display: block;
+    padding: 1rem 1rem!important;
+}
+
+
+
+header{
+	    border-bottom: solid 1px #e0e0e0;
+}
+
+
+.navbar-brand img{}
+
+@media (max-width:768px ) {
+.navbar-brand img{
+	max-width: 190px;
+}	
+}/**/
+
+
+
+
+.navbar-nav{
+margin-left: auto
+}
+.navbar-nav li{
+	margin-left: 25px;
+}
+
+.navbar-nav li *{
+	padding: 0;
+	margin: 0;
+	display: inline!important;
+}
+.navbar-nav li a{
+	color: #666;
+	    font-family: 'Raleway', sans-serif;
+	display: inline!important;
+	font-size: 15px;
+
+}
+
+
+body header .current-menu-item{
+	position: relative;
+}
+
+
+	.navbar-nav li.current-menu-item a{
+	color: #090921
+}
+
+
+@media (min-width: 992px) {
+
+
+body header #nav > li.current-menu-item > .span-line {
+	display: inline-block!important;
+	background: #090921;
+	height: 2px;
+	width: 100%;
+	position: absolute;
+	bottom: -27px;
+	left: 0;
+
+}
+.menu-item-has-children::after{
+	
+	content:"\f0d7";
+	font-family: "FontAwesome";
+	color: #666;
+	font-size: 14px;
+}
+
+
+}/**/
+
+
+
+
+
+
+
+.font-weight-light, .fw-light{
+	font-weight: 300;
+}
+
+
+
+@media (max-width: 991px) {
+.navbar-collapse{
+	background: #fff!important;
+	margin-top: 1em;
+}
+
+.navbar-collapse li{
+	padding: 1em;
+	text-align: left;
+
+}
+
+.navbar-collapse li + li{
+	border-top: solid 1px #eee;
+}
+	
+}/**/
+
+
+#nav .sub-menu{
+	display: none!important;	
+	padding: 1em;
+}
+
+
+@media (min-width: 960px) {
+	#nav .sub-menu{
+	display: none!important;
+	z-index: 1000;
+	min-width: 240px;
+	font-size: 13px;
+	position: absolute;
+	background: #fff;
+	padding: 1em;
+	-webkit-box-shadow: 0 0 15px 1px rgba(0,0,0,0.1);
+box-shadow: 0 0 15px 1px rgba(0,0,0,0.1);
+-webkit-border-radius: 4px;
+border-radius: 3px;
+}
+}/*960*/
+
+
+
+#nav .sub-menu li{
+	list-style: none;
+	text-align: left;
+	display:block !important;
+}
+#nav .sub-menu li a{ color: #666; display: block!important; padding: .4em .8em; }
+
+#nav .sub-menu li a:hover{
+	color: #090921;
+	background: #eee;
+
+}
+
+.menu-item{
+	position: relative;
+
+}
+
+
+@media (min-width: 960px){
+#nav .menu-item:hover .sub-menu{
+	display: block!important;
+	
+
+}
+}/**/
+
+
+
+
+
+
